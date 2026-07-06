@@ -1,0 +1,27 @@
+{
+  "name": "mlclub-admin-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-vercel": "^6.3.4",
+    "@sveltejs/kit": "^2.5.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "svelte": "^4.2.17",
+    "svelte-check": "^3.7.1",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.11"
+  },
+  "dependencies": {},
+  "type": "module"
+}

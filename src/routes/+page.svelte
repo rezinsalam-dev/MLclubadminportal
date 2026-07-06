@@ -1,0 +1,3 @@
+<div class="min-h-screen bg-base flex items-center justify-center text-ink-muted text-sm">
+	Redirecting...
+</div>
